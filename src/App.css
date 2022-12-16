@@ -148,7 +148,15 @@ input:focus {
 }
 
 
+.movie-details-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 
+}
 
 
 
