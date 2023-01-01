@@ -21,7 +21,7 @@ export default function Details() {
               (!item) ? `404 NOT FOUND ${id}` : (
                         <div key={item.id}> 
                                <img src={"https://image.tmdb.org/t/p/w500" + item.backdrop_path} alt="..." />
-                               <h1>Hey yo</h1>
+                            
                               <div className="">
                                 <p className="">{item.homepage}</p>
                                 <p className="">{item.title}</p>
